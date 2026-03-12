@@ -64,7 +64,7 @@ uv run my_python_script.py
 - Configure with `pre-commit` git hook to ensure every commit is formatted and linted (see [`pre-commit`](#pre-commit-run-tools-before-every-git-commit) in this document)
 - [Install](https://docs.astral.sh/ruff/installation/) with `uv`
   - `uv add --dev ruff` (`--dev` for "development")
-- Get VS Code extension to configure keyboard shortcuts for formatting files (see [VS Code Extensions](#extensions) in this document)
+- Get VS Code extension to configure keyboard shortcuts for formatting files (see "Ruff" under [VS Code Extensions](#extensions) in this document)
 
 ### `nb-clean`: clean Jupyter notebooks
 
