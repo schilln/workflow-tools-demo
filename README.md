@@ -80,6 +80,10 @@
 - [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop): (see [LaTeX](#latex) in this document)
 - [Overleaf Workshop](https://marketplace.visualstudio.com/items?itemName=iamhyc.overleaf-workshop): (see [LaTeX](#latex) in this document)
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker): spell check using built-in dictionaries (e.g., English) and custom dictionaries
+  - This repo contains a convenient setup.
+    1. Install the VS Code extension.
+    1. Copy [`.cspell.config.mjs`](.cspell.config.mjs) into your desired working directory.
+    1. Place text files in a `.cspell/` directory to define custom dictionaries (see [`example`](.cspell/) in this repo).
 - [Zoom Bar](https://marketplace.visualstudio.com/items?itemName=wraith13.zoombar-vscode): finer control over zoom level
 - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens): extra tools for `git`/GitHub
   - May be overkill due to VS Code's improving built-in git support
