@@ -5,12 +5,12 @@
 ### `pre-commit`: run tools before every `git commit`
 
 - [Homepage](https://pre-commit.com/)
-- Configure with `Ruff` (below) to format and lint code
-- Configure with `nb-clean` (below) to clean Jupyter notebooks
+- Configure with `ruff` to format and lint code (see [`ruff`](#ruff-formatting-and-linting) in this document)
+- Configure with `nb-clean` to clean Jupyter notebooks (see [`nb-clean`](#nb-clean-clean-jupyter-notebooks) in this document)
 - Ensure only formatted and linted code gets committed, avoiding extraneous changes (e.g., style, whitespace, metadata)
 - Install
   - Install: `uv add --dev pre-commit` (`--dev` for "development")
-  - Configure hooks in `.pre-commit-config.yaml` file: `uv run pre-commit install`
+  - Configure hooks in [`.pre-commit-config.yaml`](.pre-commit-config.yaml) file (example in this repo): `uv run pre-commit install`
 
 ## GitHub: free GitHub Pro for students
 
@@ -44,7 +44,7 @@
   - Nested lists/tuples/dicts
 - Lints code
 - Easily configure non-default formatting and linting rules
-- Configure with `pre-commit` git hook to ensure every commit is formatted and linted
+- Configure with `pre-commit` git hook to ensure every commit is formatted and linted (see [`pre-commit`](#pre-commit-run-tools-before-every-git-commit) in this document)
 - [Install](https://docs.astral.sh/ruff/installation/) with `uv`
   - `uv add --dev ruff` (`--dev` for "development")
 
@@ -52,7 +52,7 @@
 
 - [PyPI homepage](https://pypi.org/project/nb-clean/)
 - Strip metadata from Jupyter notebooks so `git diff` shows only code changes
-- Configure with `pre-commit` git hook to ensure every commit is cleaned
+- Configure with `pre-commit` git hook to ensure every commit is cleaned (see [`pre-commit`](#pre-commit-run-tools-before-every-git-commit) in this document)
 - Install with `uv`
   - `uv add --dev nb-clean`
 
