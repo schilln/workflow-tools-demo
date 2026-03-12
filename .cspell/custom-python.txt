@@ -2,5 +2,8 @@ arange
 cmap
 colorbar
 figsize
+matplotlib
 ndarray
+numpy
+scipy
 zlim

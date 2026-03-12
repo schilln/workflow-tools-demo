@@ -34,6 +34,23 @@
 - [Install](https://docs.astral.sh/uv/getting-started/installation/) with single command
   - Linux/macOS: `curl -LsSf https://astral.sh/uv/install.sh | less`
 
+```bash
+### Basic usage
+
+# Initialize new directory
+mkdir my-code && cd my-code
+uv init
+
+# Add dependency
+uv add numpy scipy matplotlib
+
+# Ensure dependencies are up-to-date
+uv sync
+
+# Run commands using virtual environment (if not activated)
+uv run my_python_script.py
+```
+
 ### `ruff`: formatting and linting
 
 - [Homepage](https://docs.astral.sh/ruff/)
