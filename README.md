@@ -8,6 +8,9 @@
 - Configure with `Ruff` (below) to format and lint code
 - Configure with `nb-clean` (below) to clean Jupyter notebooks
 - Ensure only formatted and linted code gets committed, avoiding extraneous changes (e.g., style, whitespace, metadata)
+- Install
+  - Install: `uv add --dev pre-commit` (`--dev` for "development")
+  - Configure hooks in `.pre-commit-config.yaml` file: `uv run pre-commit install`
 
 ## GitHub: free GitHub Pro for students
 
@@ -25,15 +28,15 @@
 ### `uv`: dependency management (replacing `pip`)
 
 - [Homepage](https://docs.astral.sh/uv/)
-- [Install](https://docs.astral.sh/uv/getting-started/installation/) with single command
 - 10–100x faster than `pip` (implemented in Rust)
 - Manages Python virtual environment
 - Familiar for `pip` users
+- [Install](https://docs.astral.sh/uv/getting-started/installation/) with single command
+  - Linux/macOS: `curl -LsSf https://astral.sh/uv/install.sh | less`
 
 ### `ruff`: formatting and linting
 
 - [Homepage](https://docs.astral.sh/ruff/)
-- [Install](https://docs.astral.sh/ruff/installation/) with `uv`
 - Insanely fast (10–100x faster than other linters; implemented in Rust)
 - Easily format code so you don't have to
   - line length
@@ -42,12 +45,16 @@
 - Lints code
 - Easily configure non-default formatting and linting rules
 - Configure with `pre-commit` git hook to ensure every commit is formatted and linted
+- [Install](https://docs.astral.sh/ruff/installation/) with `uv`
+  - `uv add --dev ruff` (`--dev` for "development")
 
 ### `nb-clean`: clean Jupyter notebooks
 
 - [PyPI homepage](https://pypi.org/project/nb-clean/)
 - Strip metadata from Jupyter notebooks so `git diff` shows only code changes
 - Configure with `pre-commit` git hook to ensure every commit is cleaned
+- Install with `uv`
+  - `uv add --dev nb-clean`
 
 ## LaTeX
 
