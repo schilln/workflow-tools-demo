@@ -64,6 +64,7 @@ uv run my_python_script.py
 - Configure with `pre-commit` git hook to ensure every commit is formatted and linted (see [`pre-commit`](#pre-commit-run-tools-before-every-git-commit) in this document)
 - [Install](https://docs.astral.sh/ruff/installation/) with `uv`
   - `uv add --dev ruff` (`--dev` for "development")
+- Get VS Code extension to configure keyboard shortcuts for formatting files (see [VS Code Extensions](#extensions) in this document)
 
 ### `nb-clean`: clean Jupyter notebooks
 
@@ -108,6 +109,9 @@ uv run nb-clean clean -o .
     1. Install the VS Code extension.
     1. Copy [`.cspell.config.mjs`](.cspell.config.mjs) into your desired working directory.
     1. Place text files in a `.cspell/` directory to define custom dictionaries (see [`example`](.cspell/) in this repo).
+- [Ruff](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff): see [`ruff`](#ruff-formatting-and-linting) in this document
+  - `shift+alt+f`: format document (`.py` or `.ipynb`)
+  - `shift+alt+o`: sort imports (`.py` or `.ipynb`)
 - [Zoom Bar](https://marketplace.visualstudio.com/items?itemName=wraith13.zoombar-vscode): finer control over zoom level
 - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens): extra tools for `git`/GitHub
   - May be overkill due to VS Code's improving built-in git support
