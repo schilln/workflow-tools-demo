@@ -9,7 +9,7 @@
   - Premium models
   - Agents
   - Premium requests
-  - Can use within VS Code
+  - Can use within VS Code (see "GitHub Copilot Chat" under [VS Code Extensions](#extensions) in this document)
 
 ## `git`
 
@@ -118,6 +118,14 @@ uv run nb-clean clean -o .
 - [Ruff](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff): see [`ruff`](#ruff-formatting-and-linting) in this document
   - `shift+alt+f`: format document (`.py` or `.ipynb`)
   - `shift+alt+o`: sort imports (`.py` or `.ipynb`)
+- [GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat): Access to AI chat, agents, etc. within VS Code
+  - [Overview](https://code.visualstudio.com/docs/copilot/chat/copilot-chat)
+  - Use GitHub Pro as student (see [GitHub](#github-free-github-pro-for-students) in this document)
+  - Disable in specific workspaces (e.g., a class with a no-AI policy)
+    1. Open the "Extensions" tab in VS Code
+    1. Find "GitHub Copilot Chat"
+    1. Click the gear icon
+    1. Click "Disable (Workspace)"
 - [Zoom Bar](https://marketplace.visualstudio.com/items?itemName=wraith13.zoombar-vscode): finer control over zoom level
 - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens): extra tools for `git`/GitHub
   - May be overkill due to VS Code's improving built-in git support
