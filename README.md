@@ -73,6 +73,13 @@ uv run my_python_script.py
 - Install with `uv`
   - `uv add --dev nb-clean`
 
+```bash
+# Clean all notebooks in the current directory (`.`)
+# (and recursively in subdirectories),
+# leaving outputs untouched (`-o`)
+uv run nb-clean clean -o .
+```
+
 ## LaTeX
 
 ### LaTeX Workshop: LaTeX tools for VS Code
