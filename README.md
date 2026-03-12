@@ -100,6 +100,12 @@ uv run nb-clean clean -o .
 
 - [Settings Sync](https://code.visualstudio.com/docs/configure/settings-sync): sync settings, shortcuts, extensions, and more using GitHub account
 
+### Handy shortcuts
+
+- `ctrl+shift+p`: search VS Code commands
+- `ctrl+p`: search files
+- `ctrl+,`: open settings
+
 ### Extensions
 
 - [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop): (see [LaTeX](#latex) in this document)
