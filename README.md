@@ -10,7 +10,7 @@
 - Ensure only formatted and linted code gets committed, avoiding extraneous changes (e.g., style, whitespace, metadata)
 - Install
   - Install: `uv add --dev pre-commit` (`--dev` for "development")
-  - Configure hooks in [`.pre-commit-config.yaml`](.pre-commit-config.yaml) file (example in this repo): `uv run pre-commit install`
+  - Configure hooks in `.pre-commit-config.yaml` file (see [example](.pre-commit-config.yaml) in this repo): `uv run pre-commit install`
 
 ## GitHub: free GitHub Pro for students
 
@@ -43,7 +43,7 @@
   - function calls
   - Nested lists/tuples/dicts
 - Lints code
-- Easily configure non-default formatting and linting rules
+- Easily configure non-default formatting and linting rules with `ruff.toml` file (see [example](`ruff.toml`) in this repo)
 - Configure with `pre-commit` git hook to ensure every commit is formatted and linted (see [`pre-commit`](#pre-commit-run-tools-before-every-git-commit) in this document)
 - [Install](https://docs.astral.sh/ruff/installation/) with `uv`
   - `uv add --dev ruff` (`--dev` for "development")
