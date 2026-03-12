@@ -1,0 +1,6 @@
+arange
+cmap
+colorbar
+figsize
+ndarray
+zlim
