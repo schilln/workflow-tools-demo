@@ -115,3 +115,10 @@ uv run my_python_script.py
 - Generate reference list or `.bib` file in a few clicks
 - Import references from Google Scholar, arXiv, etc. in a few clicks with [browser extension](https://www.zotero.org/download/)
 - [Better BibTeX extension](https://retorque.re/zotero-better-bibtex/): better support for `BibTeX`
+
+## Docker: configure and deploy reproducible build or work environments
+
+- [Docker Engine](https://docs.docker.com/engine/)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/) adds a graphical user interface on top of Docker Engine
+- Very common in industry (along with related "containerization" software)
+- Similar to virtualization/virtual machines but much lighter weight
