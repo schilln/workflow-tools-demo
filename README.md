@@ -123,6 +123,7 @@ uv run nb-clean clean -o .
   - May be overkill due to VS Code's improving built-in git support
 - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint): Lints Markdown files (`.md`)
 - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one): Additional Markdown support
+- [Rewrap Revived](https://marketplace.visualstudio.com/items?itemName=dnut.rewrap-revived): wrap comments to a specified line length
 
 ## Zotero: reference management
 
