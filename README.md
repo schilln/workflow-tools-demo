@@ -1,5 +1,16 @@
 # Workflow Tools Demo
 
+## GitHub: free GitHub Pro for students
+
+- [GitHub Education](https://github.com/education/students)
+- [GitHub Student Developer Pack](https://education.github.com/pack)
+- *Free* access to Copilot Student (essentially Pro)
+  - Completions
+  - Premium models
+  - Agents
+  - Premium requests
+  - Can use within VS Code
+
 ## `git`
 
 ### `pre-commit`: run tools before every `git commit`
@@ -11,17 +22,6 @@
 - Install
   - Install: `uv add --dev pre-commit` (`--dev` for "development")
   - Configure hooks in `.pre-commit-config.yaml` file (see [example](.pre-commit-config.yaml) in this repo): `uv run pre-commit install`
-
-## GitHub: free GitHub Pro for students
-
-- [GitHub Education](https://github.com/education/students)
-- [GitHub Student Developer Pack](https://education.github.com/pack)
-- *Free* access to Copilot Student (essentially Pro)
-  - Completions
-  - Premium models
-  - Agents
-  - Premium requests
-  - Can use within VS Code
 
 ## Python
 
