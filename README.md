@@ -104,6 +104,8 @@ uv run my_python_script.py
 - [Zoom Bar](https://marketplace.visualstudio.com/items?itemName=wraith13.zoombar-vscode): finer control over zoom level
 - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens): extra tools for `git`/GitHub
   - May be overkill due to VS Code's improving built-in git support
+- [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint): Lints Markdown files (`.md`)
+- [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one): Additional Markdown support
 
 ## Zotero: reference management
 
