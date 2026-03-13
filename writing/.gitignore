@@ -1,0 +1,21 @@
+*.synctex.gz
+*.synctex(busy)
+
+*blx.bib
+*.bbl
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*blx.bib
+*.toc
+*.ps
+*.pdf
+
+# Beamer files
+*.nav
+*.snm

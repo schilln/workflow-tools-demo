@@ -1,0 +1,47 @@
+\documentclass[12pt]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{LaTeX Demo}
+\author{Nathan Schill}
+\date{\today}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\PassOptionsToPackage{style=alphabetic}{biblatex}
+
+\newcommand{\commandprependpath}{../}
+\usepackage{../style}
+
+\addbibresource{../my-references.bib}
+
+\input{my-paper-commands}
+
+\graphicspath{{figures/}}
+
+\begin{document}
+
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Behold, content.
+
+And now, a citation \cite{neweyModelDiscoveryFly2024}.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.4\textwidth]{icosahedron.png}
+  \caption{Here, an icosahedron.}
+\end{figure}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\appendix
+
+\newpage
+\printbibliography
+
+\end{document}
