@@ -22,6 +22,10 @@ For example, independently set
   - Settings
   - Keyboard shortcuts
 
+**Note**: I have committed this workspace's [`.vscode/`](.vscode/) directory with settings and keyboard shortcuts.
+One typically does *not* commit `.vscode/`.
+(Note it's ignored in [`.gitignore`](.gitignore).)
+
 ### Handy shortcuts
 
 - `ctrl+shift+p`: search VS Code commands
