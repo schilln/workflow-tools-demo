@@ -1,0 +1,114 @@
+// These are some of the keyboard shortcuts I set:
+//   `ctrl+shift+p` > search for "Preferences: Open Keyboard Shortcuts (JSON)"
+[
+    // Combinations of `alt+[i/j/k/l]` with `shift` or `ctrl` > move cursor
+    // and/or highlight text.
+    // They interfere with some default shortcuts that I've had to re-map.
+    {
+        "key": "ctrl+shift+r",
+        "command": "workbench.view.remote"
+    },
+    {
+        "key": "alt+backspace",
+        "command": "deleteWordEndRight",
+    },
+    {
+        "key": "alt+[KeyI]",
+        "command": "cursorUp",
+    },
+    {
+        "key": "alt+[KeyK]",
+        "command": "cursorDown",
+    },
+    {
+        "key": "alt+[KeyJ]",
+        "command": "cursorLeft",
+    },
+    {
+        "key": "alt+[KeyL]",
+        "command": "cursorRight",
+    },
+    {
+        "key": "alt+ctrl+[KeyJ]",
+        "command": "cursorWordLeft",
+    },
+    {
+        "key": "alt+ctrl+[KeyL]",
+        "command": "cursorWordRight",
+    },
+    {
+        "key": "alt+shift+[KeyJ]",
+        "command": "cursorLeftSelect",
+    },
+    {
+        "key": "alt+shift+[KeyL]",
+        "command": "cursorRightSelect",
+    },
+    {
+        "key": "alt+shift+[KeyI]",
+        "command": "cursorUpSelect",
+    },
+    {
+        "key": "alt+shift+[KeyK]",
+        "command": "cursorDownSelect",
+    },
+    {
+        "key": "alt+ctrl+shift+[KeyJ]",
+        "command": "cursorWordLeftSelect",
+    },
+    {
+        "key": "alt+ctrl+shift+[KeyL]",
+        "command": "cursorWordRightSelect",
+    },
+    {
+        "key": "alt+ctrl+shift+[KeyI]",
+        "command": "editor.action.insertCursorAbove",
+    },
+    {
+        "key": "alt+ctrl+shift+[KeyK]",
+        "command": "editor.action.insertCursorBelow",
+    },
+    {
+        // Remove conflict with cursor shortcuts above.
+        "key": "ctrl+shift+i",
+        "command": "-workbench.panel.chatEditing",
+        "when": "workbench.panel.chat.view.edits.active"
+    },
+    {
+        // Remove conflict with cursor shortcuts above.
+        "key": "ctrl+shift+i",
+        "command": "-workbench.action.chat.openEditSession",
+        "when": "chatEditingParticipantRegistered && !chatSetupHidden && view != 'workbench.panel.chat.view.edits'"
+    },
+    {
+        "key": "shift+alt+o",
+        "command": "ruff.executeOrganizeImports"
+    },
+    {
+        // Remove conflict with cursor shortcuts above.
+        "key": "ctrl+alt+j",
+        "command": "-overleaf-workshop.compileManager.syncCode",
+        "when": "editorTextFocus && overleaf-workshop.activateCompile && resourceExtname == '.tex' || editorTextFocus && resourceExtname == '.tex' && resourceScheme == 'overleaf-workshop'"
+    },
+    {
+        "key": "ctrl+alt+k",
+        "command": "latex-workshop.synctex",
+        "when": "editorTextFocus && !config.latex-workshop.bind.altKeymap.enabled && editorLangId =~ /^latex$|^latex-expl3$|^doctex$/"
+    },
+    {
+        // Remove conflict with cursor shortcuts above.
+        "key": "ctrl+alt+j",
+        "command": "-latex-workshop.synctex",
+        "when": "editorTextFocus && !config.latex-workshop.bind.altKeymap.enabled && editorLangId =~ /^latex$|^latex-expl3$|^doctex$/"
+    },
+    {
+        // Remove conflict with cursor shortcuts above.
+        "key": "shift+alt+i",
+        "command": "-editor.action.insertCursorAtEndOfEachLineSelected",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+escape",
+        "command": "notifications.clearAll"
+    },
+]

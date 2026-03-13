@@ -117,7 +117,7 @@ uv run nb-clean clean -o .
     1. Place text files in a `.cspell/` directory to define custom dictionaries (see [`example`](.cspell/) in this repo).
 - [Ruff](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff): see [`ruff`](#ruff-formatting-and-linting) in this document
   - `shift+alt+f`: format document (`.py` or `.ipynb`)
-  - `shift+alt+o`: sort imports (`.py` or `.ipynb`)
+  - `shift+alt+o`: sort imports (`.py` or `.ipynb`) (custom shortcut described in [`.vscode/keybindings.json`](.vscode/keybindings.json))
 - [GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat): Access to AI chat, agents, etc. within VS Code
   - [Overview](https://code.visualstudio.com/docs/copilot/chat/copilot-chat)
   - Use GitHub Pro as student (see [GitHub](#github-free-github-pro-for-students) in this document)
