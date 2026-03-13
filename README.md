@@ -1,5 +1,25 @@
 # Workflow Tools Demo
 
+## Table of Contents
+
+- [Workflow Tools Demo](#workflow-tools-demo)
+  - [Table of Contents](#table-of-contents)
+  - [GitHub: free GitHub Pro for students](#github-free-github-pro-for-students)
+  - [VS Code](#vs-code)
+    - [Handy shortcuts](#handy-shortcuts)
+    - [Extensions](#extensions)
+  - [Python](#python)
+    - [`uv`: dependency management (replacing `pip`)](#uv-dependency-management-replacing-pip)
+    - [`ruff`: formatting and linting](#ruff-formatting-and-linting)
+    - [`nb-clean`: clean Jupyter notebooks](#nb-clean-clean-jupyter-notebooks)
+  - [`git`](#git)
+    - [`pre-commit`: run tools before every `git commit`](#pre-commit-run-tools-before-every-git-commit)
+  - [LaTeX](#latex)
+    - [LaTeX Workshop: LaTeX tools for VS Code](#latex-workshop-latex-tools-for-vs-code)
+    - [Overleaf Workshop: work on Overleaf documents within VS Code](#overleaf-workshop-work-on-overleaf-documents-within-vs-code)
+  - [Zotero: reference management](#zotero-reference-management)
+  - [Docker: configure and deploy reproducible build or work environments](#docker-configure-and-deploy-reproducible-build-or-work-environments)
+
 ## GitHub: free GitHub Pro for students
 
 - [GitHub Education](https://github.com/education/students)
