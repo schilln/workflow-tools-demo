@@ -41,6 +41,8 @@
   - Attempt to commit
   - Show cleaned up code and metadata
   - Format: `shift+alt+f`
+- Code Spell Checker
+  - `ctrl+.` to add blue-underlined words to dictionaries
 - LaTeX / LaTeX Workshop
   - Copy `writing/`
   - Compile and show output
