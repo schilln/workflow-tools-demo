@@ -1,0 +1,153 @@
+// This file (`.vscode/settings.json`) controls "workspace" settings, overriding
+// defaults and user settings.
+// These are the settings I typically set as my user settings:
+//   `ctrl+shift+p` > search for "Preferences: Open User Settings (JSON)".
+// Note: One typically *doesn't* commit `.vscode/` directory to version control.
+{
+    "[latex]": {
+        "editor.defaultFormatter": "James-Yu.latex-workshop",
+        "editor.rulers": [
+            88,
+        ],
+        "editor.tabSize": 2,
+        "editor.wordWrap": "bounded",
+        "editor.wordWrapColumn": 88
+    },
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+    "cSpell.ignoreRegExpList": [
+        "attribute-access",
+        "keyword-argument",
+        "numpy",
+    ],
+    "cSpell.patterns": [
+        {
+            "name": "attribute-access",
+            "pattern": "(?<!self)\\.\\w*"
+        },
+        {
+            "name": "keyword-argument",
+            "pattern": "\\w*\\b(?==)"
+        },
+        {
+            "name": "numpy",
+            "pattern": "(?<=np\\.)\\w*"
+        },
+    ],
+    "editor.rulers": [
+        80,
+    ],
+    "files.exclude": {
+        ".garbage": true,
+        ".pytest_cache": true,
+        ".ruff_cache": true,
+        "**/__pycache__": true,
+        "**/.git": false,
+        "**/*.aux": true,
+        "**/*.bbl": true,
+        "**/*.bcf": true,
+        "**/*.blg": true,
+        "**/*.fdb_latexmk": true,
+        "**/*.fls": true,
+        "**/*.log": true,
+        "**/*.nav": true,
+        "**/*.out": true,
+        "**/*.ps": true,
+        "**/*.run.xml": true,
+        "**/*.snm": true,
+        "**/*.synctex.gz": true,
+        "**/*.synctex(busy)": true,
+        "**/*.toc": true,
+        "**/*blx.bib": true,
+        "**/%OUTDIR%": true
+    },
+    "github.copilot.chat.commitMessageGeneration.instructions": [
+        {
+            "text": "Use past tense language."
+        }
+    ],
+    "latex-workshop.formatting.latex": "tex-fmt",
+    "latex-workshop.formatting.tex-fmt.args": [
+        "--nowrap"
+    ],
+    "latex-workshop.intellisense.citation.backend": "biblatex",
+    "latex-workshop.latex.autoBuild.run": "onSave",
+    "latex-workshop.latex.autoClean.run": "onBuilt",
+    "latex-workshop.latex.recipe.default": "lastUsed",
+    // pdflatex is fast but sometimes needs latexmk to run first to set up
+    // references, etc.
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "pdflatex * 2",
+            "tools": [
+                "pdflatex",
+                "pdflatex",
+            ]
+        },
+        {
+            "name": "latexmk",
+            "tools": [
+                "latexmk"
+            ]
+        },
+        {
+            "name": "pdflatex",
+            "tools": [
+                "pdflatex",
+            ]
+        },
+    ],
+    // LaTeX Workshop configures several of these tools automatically.
+    // This is just a subset of those.
+    "latex-workshop.latex.tools": [
+        {
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-pdf",
+                "-outdir=%OUTDIR%",
+                "%DOC%"
+            ],
+            "command": "latexmk",
+            "env": {},
+            "name": "latexmk"
+        },
+        {
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ],
+            "command": "pdflatex",
+            "env": {},
+            "name": "pdflatex"
+        },
+        {
+            "args": [
+                "%DOCFILE%"
+            ],
+            "command": "bibtex",
+            "env": {},
+            "name": "bibtex"
+        },
+    ],
+    "latex-workshop.view.pdf.internal.synctex.keybinding": "double-click",
+    // Working sets save which editors are open on each git branch.
+    // Very useful for switching between branches efficiently.
+    "scm.workingSets.default": "empty",
+    "scm.workingSets.enabled": true,
+    "search.exclude": {
+        ".git": true,
+        ".venv": true
+    },
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.suggest.insertTrailingSpace": true,
+    "window.zoomLevel": -1.5,
+    "workbench.editorAssociations": {
+        "*.pdf": "latex-workshop-pdf-hook"
+    },
+    "workbench.startupEditor": "none"
+}
