@@ -90,6 +90,8 @@ uv run nb-clean clean -o .
 - No compile time limit
 - Two-way sync: click/hotkey within `.tex` or PDF file to jump to corresponding location in the other
 - Use `git` on `.tex` files
+- Hover over equations, figures, references and citations for previews
+- `ctrl+alt+m`: open preview panel (for editing `equation` environments, etc.)
 
 ### Overleaf Workshop: work on Overleaf documents within VS Code
 

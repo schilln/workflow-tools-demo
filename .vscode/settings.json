@@ -71,6 +71,8 @@
     "latex-workshop.formatting.tex-fmt.args": [
         "--nowrap"
     ],
+    "latex-workshop.hover.preview.cursor.color": "red",
+    "latex-workshop.hover.preview.newcommand.newcommandFile": "../common.tex",
     "latex-workshop.intellisense.citation.backend": "biblatex",
     "latex-workshop.latex.autoBuild.run": "onSave",
     "latex-workshop.latex.autoClean.run": "onBuilt",
