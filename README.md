@@ -99,6 +99,13 @@ uv run nb-clean clean -o .
 ## VS Code
 
 - [Settings Sync](https://code.visualstudio.com/docs/configure/settings-sync): sync settings, shortcuts, extensions, and more using GitHub account
+- [Profiles](https://code.visualstudio.com/docs/configure/profiles): quickly switch between sets of customizations.
+Useful to enable for different programming languages.
+For example, independently set
+
+  - Extensions
+  - Settings
+  - Keyboard shortcuts
 
 ### Handy shortcuts
 
